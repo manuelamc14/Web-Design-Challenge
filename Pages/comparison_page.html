@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Latitude</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data_page.html">Data</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comparison_page.html">Comparison</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="temperature_page.html">Max Temperature</a>
+              <a class="dropdown-item" href="humidity_page.html">Humidity</a>
+              <a class="dropdown-item" href="cloudiness_page.html">Cloudiness</a> 
+              <a class="dropdown-item" href="wind_speed_page.html">Wind Speed</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+<!-- Comparison Page -->
+  <div class="container">
+    <section>
+      <div class="row row-cols-2">
+        <div class="col mb-12">
+         <h2>Comparison:Latitude vs X</h2>
+         <h6>Would like to know how the Latitude impacts these variables? Click any plot for more details!</h6>
+        </div>
+      </div>
+    </section> 
+<!-- Row one of comparison -->
+  
+    <div class="row row-cols-2">
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col mb-4">
+          <div class="card text-center" style="width: 18rem;">
+            <a href="/Users/manuelamunoz/Documents/Bootcamp/Submissions/Web-Design-Challenge/Web-Design-Challenge/Pages/temperature_page.html"><img src="/Users/manuelamunoz/Documents/Bootcamp/Submissions/Web-Design-Challenge/Web-Design-Challenge/Images/max_temperature.png" class="card-img-top" alt="Temperature"></a>
+            <div class="card-body">
+              <h5 class="card-title">vs. Max Temperature</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card text-center" style="width: 18rem;">
+            <a href="/Users/manuelamunoz/Documents/Bootcamp/Submissions/Web-Design-Challenge/Web-Design-Challenge/Pages/humidity_page.html"><img src="/Users/manuelamunoz/Documents/Bootcamp/Submissions/Web-Design-Challenge/Web-Design-Challenge/Images/humidity.png" class="card-img-top" alt="Humidity"></a>
+            <div class="card-body">
+              <h5 class="card-title">vs. Humidity</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Row two of comparison -->
+    <div class="row row-cols-2">
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col mb-4">
+          <div class="card text-center" style="width: 18rem;">
+            <a href="/Users/manuelamunoz/Documents/Bootcamp/Submissions/Web-Design-Challenge/Web-Design-Challenge/Pages/cloudiness_page.html"><img src="/Users/manuelamunoz/Documents/Bootcamp/Submissions/Web-Design-Challenge/Web-Design-Challenge/Images/cloudiness.png" class="card-img-top" alt="Cloudiness"></a>
+            <div class="card-body">
+              <h5 class="card-title">vs. Cloudiness</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card text-center" style="width: 18rem;">
+            <a href="/Users/manuelamunoz/Documents/Bootcamp/Submissions/Web-Design-Challenge/Web-Design-Challenge/Pages/wind_speed_page.html"><img src="/Users/manuelamunoz/Documents/Bootcamp/Submissions/Web-Design-Challenge/Web-Design-Challenge/Images/wind_speed.png" class="card-img-top" alt="Wind Speed"></a>
+            <div class="card-body">
+              <h5 class="card-title">vs. Wind Speed</h5>
+            </div>
+          </div>
+        </div>
+      </div>    
+    </div>
+  </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
