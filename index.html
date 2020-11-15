@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Pages/data_page.html">Data</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Pages/comparison_page.html">Comparison</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="Pages/temperature_page.html">Max Temperature</a>
+                <a class="dropdown-item" href="Pages/humidity_page.html">Humidity</a>
+                <a class="dropdown-item" href="Pages/cloudiness_page.html">Cloudiness</a>
+                <a class="dropdown-item" href="Pages/wind_speed_page.html">Wind Speed</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <!-- Landing Page -->
+   <body>
+    <!-- Slides  -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">How weather changes as you get closer to the equator?</h1>
+        <p class="lead">4 variables and more than 500 cities analyzed.</p>
+        <hr class="my-4">
+        <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather of vs latitude. Factores we looked at included:
+          temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!--Second Row -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card-deck">
+              <div class="card text-center">
+                <a href="Pages/temperature_page.html"><img class="card-img-top" src="Images/max_temperature.png" alt="Temperature"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Temperature</h5>
+                </div>
+              </div>
+              <div class="card text-center">
+                <a href="Pages/cloudiness_page.html"><img class="card-img-top" src="Images/cloudiness.png" alt="Cloudiness"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Cloudiness</h5>
+                </div>
+              </div>
+              <div class="card text-center">
+                <a href="Pages/humidity_page.html"><img class="card-img-top" src="Images/humidity.png" alt="Humidity"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Humidity</h5>
+                </div>
+              </div>
+              <div class="card text-center">
+                <a href="Pages/wind_speed_page.html"><img class="card-img-top" src="Images/wind_speed.png" alt="Wind Speed"></a>
+                  <div class="card-body">
+                    <h5 class="card-title">Wind Speed</h5>
+                  </div>
+                </div>
+            </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
