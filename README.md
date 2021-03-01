@@ -26,16 +26,16 @@ The dashboard incorporates a navigation bar, which makes more comfortable the na
 
 ![ScreenShot](https://github.com/manuelamc14/web_design_dashboard.github.io/blob/main/Images/home_page.png)
 
-![alt text](https://github.com/manuelamc14/web_design_dashboard.github.io/blob/master/Images/home_page.png?raw=false)
-
 * ***Nav Bar***
 
-![alt text](https://github.com/manuelamc14/web_design_dashboard.github.io/blob/master/Images/nav_bar.png?raw=true)
+![ScreenShot](https://github.com/manuelamc14/web_design_dashboard.github.io/blob/main/Images/nav_bar.png)
+
 
 * ***Side Bar***
 
-![alt text](https://github.com/manuelamc14/web_design_dashboard.github.io/blob/master/Images/side_bar.png?raw=true)
+![ScreenShot](https://github.com/manuelamc14/web_design_dashboard.github.io/blob/main/Images/side_bar.png)
 
 * ***Visualization***
 
-![alt text](https://github.com/manuelamc14/web_design_dashboard.github.io/blob/master/Images/visualization_sample1.png?raw=true)
+![ScreenShot](https://github.com/manuelamc14/web_design_dashboard.github.io/blob/main/Images/visualization_sample1.png)
+
