@@ -24,6 +24,8 @@ The dashboard incorporates a navigation bar, which makes more comfortable the na
 
 * ***Home Page***
 
+![ScreenShot](https://github.com/manuelamc14/web_design_dashboard.github.io/blob/main/Images/home_page.png)
+
 ![alt text](https://github.com/manuelamc14/web_design_dashboard.github.io/blob/master/Images/home_page.png?raw=false)
 
 * ***Nav Bar***
